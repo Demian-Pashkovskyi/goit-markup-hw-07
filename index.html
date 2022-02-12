@@ -25,7 +25,7 @@
 				<nav>
 					<ul class="site-nav">
 						<li class="site-nav__item">
-							<a href="index.html" class="site-nav__link">Студия</a></li>
+							<a href="index.html" class="site-nav__link site-nav__link--active ">Студия</a></li>
 						<li class="site-nav__item"><a href="./portfolio.html " class="site-nav__link">Портфолио</a></li>
 						<li class="site-nav__item"><a href="index.html" class="site-nav__link">Контакты</a></li>
 					</ul>
@@ -54,48 +54,46 @@
 		<main>
 			<!--Заказ услуги-->
 
-			<section class="name">
+			<section class="hero">
 				<div class="container">
-					<h1 class="name-title">Эффективные решения для вашего бизнеса</h1>
-					<button class="button" type="button" data-modal-open>Заказать услугу</button>
+					<h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+					<button class="hero__button" type="button" data-modal-open>Заказать услугу</button>
 						<div class="backdrop is-hidden" data-modal>
-							<div class="modal">
-											
-								<form class="form-modal">
-									<h2 class="name-modal"> Оставьте свои данные, мы вам перезвоним </h2>	
+							<div class="modal">			
+								<form class="modal-form">
+									<h2 class="modal__name"> Оставьте свои данные, мы вам перезвоним </h2>	
 									<ul>
-										<li class="form-field">
-											<label for="name" class="form-label">Имя</label>
+										<li class="modal-form__item">
+											<label for="name" class="modal-form__label">Имя</label>
 											
-										<input class="form-input" type="text" name="name" id="name" autofocus>
-										<svg class="modal-icons" width="18px" height="18px">
+										<input class="modal-form__input" type="text" name="name" id="name" autofocus>
+										<svg class="modal-form__icons" width="18px" height="18px">
 									<use href="./images/icons.svg#icon-person-black-18dp"></use>
 								</svg>
 										</li>
-										<li class="form-field">
-											<label for="tel" class="form-label">Телефон</label>
-										<input class="form-input" type="tel" name="tel" id="tel">
-										<svg class="modal-icons" width="18px" height="18px">
+										<li class="modal-form__item">
+											<label for="tel" class="modal-form__label">Телефон</label>
+										<input class="modal-form__input" type="tel" name="tel" id="tel">
+										<svg class="modal-form__icons" width="18px" height="18px">
 									<use href="./images/icons.svg#icon-phone-black"></use>
 								</svg>
 										</li>
-										<li class="form-field">
-											<label for="mail" class="form-label">Почта</label>
-											<input class="form-input" type="email" name="email" id="mail">
-											<svg class="modal-icons" width="18px" height="18px">
+										<li class="modal-form__item">
+											<label for="mail" class="modal-form__label">Почта</label>
+											<input class="modal-form__input" type="email" name="email" id="mail">
+											<svg class="modal-form__icons" width="18px" height="18px">
 									<use href="./images/icons.svg#icon-email-black"></use>
 								</svg>
 										</li>
-										<li class="form-field">
-											<label for="coment" class="form-label">Комментарий</label>
-										<textarea class="form-textera" name="coment" id="coment" rows="9" placeholder="Введите текст"></textarea>
+										<li class="modal-form__item">
+											<label for="coment" class="modal-form__label">Комментарий</label>
+										<textarea class="modal-form__textera" name="coment" id="coment" rows="9" placeholder="Введите текст"></textarea>
 										</li>
 									</ul>
-									<div class="form-field-policy">
-										
-											
-										<label class="form-label-policy" for="policy"> 
-											<input  class="form-input-policy" type="checkbox" name="policy" id="policy">
+
+									<div class="modal-form__item modal-form__item--policy">
+										<label class="modal-form__label modal-form__label--policy" for="policy"> 
+											<input  class="modal-form__input modal-form__input--policy" type="checkbox" name="policy" id="policy">
 											<svg class="modal-icons-policy" width="16px" height="15px">
 									<use href="./images/icons.svg#icon-icon-check11"></use>
 								</svg> 
