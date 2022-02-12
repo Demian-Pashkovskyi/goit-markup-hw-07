@@ -140,7 +140,6 @@
 	display: flex;
 
 	justify-content: center;
-	/* background-color: var(--title-fon-color); */
 	text-decoration: none;
 	text-align: center;
 	padding-bottom: 200px;
@@ -292,7 +291,7 @@ button {
 	outline: none;
 }
 
-.modal-form__input:focus + .modal-icons {
+.modal-form__input:focus + .modal-form__icons {
 	fill: var(--accent-color);
 	box-sizing: border-box;
 	transition: fill 250ms var(--timing-translation);
@@ -353,7 +352,7 @@ button {
 	transition: border-color 250ms var(--timing-translation);
 }
 
-.form-input-policy:checked + .modal-icons-policy {
+.modal-form__input--policy:checked + .modal-icons-policy {
 	background-color: var(--accent-color);
 	border-radius: 2px;
 	fill: currentColor;
