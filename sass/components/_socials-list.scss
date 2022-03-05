@@ -2,10 +2,12 @@
 	transition: background-color 250ms var(--timing-translation);
 	color: #ffffff;
 }
+
 .socials-list__icon--footer:hover,
 .socials-list__icon--footer:focus {
 	background-color: var(--accent-color);
-	/* transition: transform 250ms var(--timing-translation); */
+	background: #2196f3;
+	transition: transform 250ms var(--timing-translation);
 }
 
 .socials-list__item--footer {
@@ -33,7 +35,7 @@
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
 	background: var(--title-fon-color);
-	color: rgba(255, 255, 255, 0.6);
+	color: var(--text-color-footer);
 }
 
 .subscription__input::placeholder {
