@@ -20,10 +20,10 @@
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
-}
-.hero__button:hover,
-.hero__button:focus {
-	color: var(--accent-color);
-	background-color: var(--text-color-footer);
-	border-color: var(--primery-fon-color);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+		background-color: var(--text-color-footer);
+		border-color: var(--primery-fon-color);
+	}
 }

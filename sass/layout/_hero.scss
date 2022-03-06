@@ -13,9 +13,7 @@
 	text-align: center;
 	padding-bottom: 200px;
 	padding-top: 200px;
-}
-
-.hero__title {
+	&__title {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
@@ -34,3 +32,6 @@
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
+}
+
+

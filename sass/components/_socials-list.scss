@@ -1,13 +1,12 @@
 .socials-list__icon--footer {
 	transition: background-color 250ms var(--timing-translation);
 	color: #ffffff;
-}
-
-.socials-list__icon--footer:hover,
-.socials-list__icon--footer:focus {
-	background-color: var(--accent-color);
-	background: #2196f3;
-	transition: transform 250ms var(--timing-translation);
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+		background: #2196f3;
+		transition: transform 250ms var(--timing-translation);
+	}
 }
 
 .socials-list__item--footer {
@@ -36,11 +35,11 @@
 	border-radius: 4px;
 	background: var(--title-fon-color);
 	color: var(--text-color-footer);
+	&::placeholder {
+		color: rgba(255, 255, 255, 0.6);
+	}
 }
 
-.subscription__input::placeholder {
-	color: rgba(255, 255, 255, 0.6);
-}
 .subscription-button__snd {
 	width: 200px;
 	height: 50px;
