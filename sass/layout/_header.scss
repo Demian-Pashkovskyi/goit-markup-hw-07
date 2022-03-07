@@ -13,10 +13,11 @@
 		color: var(--primery-text-color);
 		text-decoration: none;
 		font-family: Raleway;
-		font-style: normal;
-		font-weight: 700;
-		font-size: 26px;
-		line-height: 1.19;
+		@include font(normal, 700px, 26px, 1.19);
+		// font-style: normal;
+		// font-weight: 700;
+		// font-size: 26px;
+		// line-height: 1.19;
 		letter-spacing: 0.03em;
 	}
 	&__icon {
@@ -36,10 +37,11 @@
 			color: var(--title-text-color);
 			text-decoration: none;
 			font-family: Roboto;
-			font-style: normal;
-			font-weight: 500;
-			font-size: 14px;
-			line-height: 1.14;
+			@include font(normal, 500px, 14px, 1.14);
+			// font-style: normal;
+			// font-weight: 500;
+			// font-size: 14px;
+			// line-height: 1.14;
 			letter-spacing: 0.02em;
 			&:focus,
 			&:hover {

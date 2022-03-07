@@ -33,10 +33,11 @@
 			color: var(--primery-text-color);
 			background-color: var(--fon-button-color);
 			font-family: Roboto;
-			font-style: normal;
-			font-weight: 500;
-			font-size: 16px;
-			line-height: 1.63;
+			@include font(normal, 500px, 16px, 1.63);
+			// font-style: normal;
+			// font-weight: 500;
+			// font-size: 16px;
+			// line-height: 1.63;
 			text-align: center;
 			letter-spacing: 0.03em;
 			&:focus,

@@ -4,10 +4,11 @@
 		padding-top: 0px;
 		margin-bottom: 50px;
 		color: var(--primery-text-color);
-		font-style: normal;
-		font-weight: 700;
-		font-size: 36px;
-		line-height: 1.17;
+		@include font(normal, 700px, 36px, 1.17);
+		// font-style: normal;
+		// font-weight: 700;
+		// font-size: 36px;
+		// line-height: 1.17;
 		text-align: center;
 		letter-spacing: 0.03em;
 	}
@@ -38,10 +39,11 @@
 
 			left: 0px;
 			bottom: 0px;
-			font-style: normal;
-			font-weight: 700;
-			font-size: 14px;
-			line-height: 1.14;
+			@include font(normal, 700px, 14px, 1.14);
+			// font-style: normal;
+			// font-weight: 700;
+			// font-size: 14px;
+			// line-height: 1.14;
 			text-align: center;
 			letter-spacing: 0.03em;
 			text-transform: uppercase;

@@ -13,10 +13,11 @@
 	color: var(--text-color-footer);
 	background-color: var(--accent-color);
 	font-family: Roboto;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.88;
+	@include font(normal, 700px, 16px, 1.88);
+	// font-style: normal;
+	// font-weight: 700;
+	// font-size: 16px;
+	// line-height: 1.88;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;

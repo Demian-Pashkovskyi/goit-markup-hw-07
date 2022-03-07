@@ -15,20 +15,22 @@
 			list-style: none;
 			color: var(--primery-text-color);
 			font-family: Roboto;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 18px;
-			line-height: 2;
+			@include font(normal, 700px, 18px, 2);
+			// font-style: normal;
+			// font-weight: bold;
+			// font-size: 18px;
+			// line-height: 2;
 			letter-spacing: 0.06em;
 			display: block;
 		}
 		&__link {
 			text-decoration: none;
 			font-family: Roboto;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 16px;
-			line-height: 1.88;
+			@include font(normal, 400px, 16px, 1.88);
+			// font-style: normal;
+			// font-weight: normal;
+			// font-size: 16px;
+			// line-height: 1.88;
 			letter-spacing: 0.03em;
 		}
 	}
@@ -59,10 +61,11 @@
 		margin: 0px;
 		padding: 63px 24px;
 		font-family: Roboto;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 18px;
-		line-height: 1.56;
+		@include font(normal, 400px, 18px, 1.56);
+		// font-style: normal;
+		// font-weight: 400;
+		// font-size: 18px;
+		// line-height: 1.56;
 		letter-spacing: 0.03em;
 		color: var(--primery-fon-color);
 		background: rgba(33, 150, 243, 0.9);

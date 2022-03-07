@@ -25,10 +25,11 @@
 	text-align: center;
 	width: 696px;
 	color: var(--text-color-footer);
-	font-style: normal;
-	font-weight: 900;
-	font-size: 44px;
-	line-height: 1.36;
+	@include font(normal, 900px, 44px, 1.36);
+	// font-style: normal;
+	// font-weight: 900;
+	// font-size: 44px;
+	// line-height: 1.36;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }

@@ -18,10 +18,11 @@
 		color: var(--text-color-footer);
 		text-decoration: none;
 		font-family: Raleway;
-		font-style: normal;
-		font-weight: 700;
-		font-size: 26px;
-		line-height: 1.19;
+		@include font(normal, 700px, 26px, 1.19);
+		// font-style: normal;
+		// font-weight: 700;
+		// font-size: 26px;
+		// line-height: 1.19;
 		letter-spacing: 0.03em;
 	}
 	&__item {
@@ -36,10 +37,11 @@
 		display: block;
 		color: var(--primery-fon-color);
 		font-family: Roboto;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 1.71;
+		@include font(normal, 400px, 14px, 1.71);
+		// font-style: normal;
+		// font-weight: 400;
+		// font-size: 14px;
+		// line-height: 1.71;
 		letter-spacing: 0.03em;
 		&:focus,
 		&:hover {
@@ -52,10 +54,11 @@
 		color: var(--second-text-color);
 		text-decoration: none;
 		font-family: Roboto;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 1.71;
+		@include font(normal, 400px, 14px, 1.71;
+		// font-style: normal;
+		// font-weight: 400;
+		// font-size: 14px;
+		// line-height: 1.71;
 		letter-spacing: 0.03em;
 		&:focus,
 		&:hover {
@@ -69,10 +72,11 @@
 			margin-bottom: 20px;
 			color: var(--primery-fon-color);
 			font-family: Roboto;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 14px;
-			line-height: 16px;
+			@include font(normal, 700px, 14px, 1.14);
+			// font-style: normal;
+			// font-weight: bold;
+			// font-size: 14px;
+			// line-height: 1.14;
 			letter-spacing: 0.03em;
 			text-transform: uppercase;
 		}
